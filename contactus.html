@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact — Genesis Construction SA</title>
+  <meta name="description" content="Contact Genesis Construction SA — address, phone and contact form to request a quote or ask questions.">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/scripts.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container site-branding">
+      <img src="_images/image.png" alt="Genesis Construction SA logo" width="160">
+      <div class="site-title">Genesis Construction SA — Contact</div>
+      <nav class="navbar" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="aboutus.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contactus.html">Contact</a>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/scripts.js"></script>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Contact Us</h1>
+
+    <section class="info-box">
+      <p><strong>Address:</strong> 16 Beach Estate Blvd, Big Bay, Cape Town, 7441</p>
+      <p><strong>Email:</strong> <a href="mailto:GenesisConstruction@gmail.com">GenesisConstruction@gmail.com</a></p>
+      <p><strong>Phone:</strong> <a href="tel:+2782572879">082 572 879</a></p>
+    </section>
+
+    <section class="section info-box" aria-labelledby="hours">
+      <h2 id="hours">Operation Hours</h2>
+      <p><strong>Mon–Thu:</strong> 9:00 – 17:00</p>
+      <p><strong>Fri:</strong> 9:00 – 16:00</p>
+    </section>
+
+    <section class="section">
+      <h2>Send an Enquiry</h2>
+      <form id="contact-form" action="" method="POST" class="info-box" novalidate>
+        <!-- Add your form endpoint to the action attribute (Formspree, Netlify, etc.) -->
+        <div class="form-row">
+          <div>
+            <label for="name">Full name</label>
+            <input id="name" name="name" type="text" required>
+          </div>
+          <div>
+            <label for="email">Email address</label>
+            <input id="email" name="email" type="email" required>
+          </div>
+        </div>
+
+        <div class="form-row" style="margin-top:12px">
+          <div>
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" type="tel" placeholder="082 572 879">
+          </div>
+          <div>
+            <label for="service">Service interested in</label>
+            <select id="service" name="service">
+              <option value="">Select (optional)</option>
+              <option>Planning</option>
+              <option>Management</option>
+              <option>Execution</option>
+              <option>Consultancy</option>
+            </select>
+          </div>
+        </div>
+
+        <div style="margin-top:12px">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+
+        <div style="margin-top:12px">
+          <button class="button" type="submit">Send Message</button>
+        </div>
+
+        <div class="form-feedback" style="margin-top:12px"></div>
+      </form>
+    </section>
+
+    <section class="section">
+      <h2>Location</h2>
+      <div class="map-wrapper info-box" aria-label="Map showing Big Bay Office Park">
+        <iframe title="Genesis Construction location: Big Bay Office Park"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3315.796245877693!2d18.455882775504893!3d-33.791759473256185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dccf56f5fd254e7%3A0xd2c0da33fe32a760!2sBig%20Bay%20Office%20Park!5e0!3m2!1sen!2sza!4v1756325563049!5m2!1sen!2sza"
+          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Genesis Construction SA</p>
+    </div>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
